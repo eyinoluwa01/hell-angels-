@@ -1,0 +1,39 @@
+<section id="positionApplicationSection">
+    <link rel="stylesheet" href="hell.css">
+    <h1>Position Application</h1>
+    <form id="positionApplicationForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="position">Position Applying For:</label>
+        <input type="text" id="position" name="position" required>
+
+        <label for="motivation">Why Do You Want This Position?</label>
+        <textarea id="motivation" name="motivation" required></textarea>
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <!-- Confirmation Message (Initially Hidden) -->
+    <div id="confirmationMessage" style="display: none;">
+        <p>Your application has been submitted successfully!</p>
+        <button id="okButton">Okay</button>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 Hells Angels Brotherhood</p>
+    </footer>
+</section>
+
+<script src="application.js"></script> <!-- Make sure your script is linked properly -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Your JavaScript code here
+    });
+</script>
+
